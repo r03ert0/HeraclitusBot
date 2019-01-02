@@ -1,0 +1,6 @@
+{
+	"consumer_key":         "[GET_YOURS_AT_https://developer.twitter.com/en/apps]", 
+	"consumer_secret":      "[GET_YOURS_AT_https://developer.twitter.com/en/apps]",
+	"access_token":         "[GET_YOURS_AT_https://developer.twitter.com/en/apps]",
+	"access_token_secret":  "[GET_YOURS_AT_https://developer.twitter.com/en/apps]"
+}
