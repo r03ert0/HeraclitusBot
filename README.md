@@ -9,6 +9,16 @@ the layout of the tweet is done using HTML,
 then rendered as a `.png` file,
 and finally sent to Twitter.
 
+The code is all inside `app.js`. Twitter requires a set of 4 keys to allow a bot to tweet.
+You can get your own by registering for a developer account at https://developer.twitter.com,
+and then creating an app. Replace the values you will obtain there in the file `keys.json`
+(removing the `_example`).
+
+To run the code manually, and produce a tweet, type `node start`. That will call `app.js` and
+run the script.
+
+To make the code run automatically, use a [`cron` job](https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/).
+
 ### How to contribute
 What would be nice to do next?
 
